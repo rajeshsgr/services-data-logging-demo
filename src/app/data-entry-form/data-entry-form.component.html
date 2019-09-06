@@ -1,0 +1,13 @@
+<form>
+    
+    Name:<br>
+    <input type="text" name="name" #name><br>
+    Status:<br>
+    <input type="text" name="status" #status><br>
+    <br>
+
+    <button type="button" class="btn btn-primary" (click)="addStudent(name.value, status.value)">Add Student</button>
+
+
+
+</form>
